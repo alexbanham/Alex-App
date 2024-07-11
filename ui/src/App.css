@@ -1,0 +1,36 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFFFFF; /* Background color can be adjusted as needed */
+    text-align: center;
+}
+
+.logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-size: 1.2em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.authorize-button {
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.authorize-button:hover {
+    background-color: #1AA34A;
+}
